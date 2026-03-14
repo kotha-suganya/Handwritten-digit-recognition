@@ -41,7 +41,7 @@ def main():
         metrics=['accuracy']
     )
 
-    model.summary()
+  
 
     # Train model
     history = model.fit(
