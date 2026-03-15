@@ -55,7 +55,18 @@ def main():
     test_loss, test_accuracy = model.evaluate(x_test, y_test)
     print("Test Accuracy:", test_accuracy)
 
+    # Prediction example 1
+    index = int(input("Enter a test image index (0 - 9999): "))
 
+    prediction = model.predict(x_test[index].reshape(1,28,28,1))
+    predicted_label = np.argmax(prediction)
+
+    print("Actual Label:", y_test[index])
+
+    plt.imshow(x_test[index].reshape(28,28), cmap='gray')
+    plt.title(f"Predicted: {predicted_label} | Actual: {y_test[index]}")
+    plt.axis('off')
+    plt.show()
 
     # Prediction example 
     index = 10
