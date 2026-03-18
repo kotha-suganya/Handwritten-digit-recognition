@@ -2,8 +2,8 @@ This looks like a solid implementation of a Convolutional Neural Network (CNN) f
 
 Here is a concise description and a professional, hand-crafted README for your repository.
 
-GitHub Short Description
-A Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset. Reaches ~99% accuracy with a streamlined architecture.
+
+It is a Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset. Reaches ~99% accuracy with a streamlined architecture.
 
 README.md
 MNIST Digit Classifier (CNN)
