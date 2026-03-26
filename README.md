@@ -25,8 +25,14 @@ How to Run
 python -m venv venv
 # Windows:
 .\venv\Scripts\activate
-Requirements
+
+
+Requirements:
+
 Python 3.8+
+
 TensorFlow 2.x
+
 Matplotlib
+
 NumPy
